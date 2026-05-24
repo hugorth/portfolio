@@ -1,0 +1,87 @@
+export const PORTFOLIO_DATA = {
+  projects: [
+    {
+      id: 'transadmin',
+      title: 'TransAdmin',
+      desc: 'Secure transport management web application developed during my DSAF internship.',
+      tags: ['React', 'Node.js', 'PostgreSQL'],
+      icon: 'Truck',
+      githubUrl: 'https://github.com/hugorth',
+    },
+    {
+      id: 'area',
+      title: 'Area',
+      desc: 'Automation platform inspired by Zapier, built around trigger and action workflows.',
+      tags: ['React', 'Docker', 'REST API'],
+      icon: 'Workflow',
+      githubUrl: 'https://github.com/hugorth/Area',
+    },
+    {
+      id: 'arbore',
+      title: 'Arbore',
+      desc: 'Botanical management application with AR features designed to make plant visualization easier.',
+      tags: ['React Native', 'WebRTC'],
+      icon: 'Share2',
+      githubUrl: 'https://github.com/ArboreTeam/Arbore',
+    },
+    {
+      id: 'arcade',
+      title: 'Arcade',
+      desc: 'Retro gaming platform with dynamic library loading and multiple graphics backends.',
+      tags: ['C++', 'SFML', 'SDL2'],
+      icon: 'Gamepad2',
+      githubUrl: 'https://github.com/hugorth/Arcade_',
+    },
+    {
+      id: 'gomoku',
+      title: 'Gomoku',
+      desc: 'Gomoku game AI using Minimax and Alpha-Beta pruning for stronger decision making.',
+      tags: ['Python', 'AI'],
+      icon: 'Brain',
+      githubUrl: 'https://github.com/hugorth/GomokuAi',
+    },
+    {
+      id: 'raytracer',
+      title: 'RayTracer',
+      desc: '3D rendering engine built around ray tracing, lighting and geometric computation.',
+      tags: ['C++', '3D Maths'],
+      icon: 'Sun',
+      githubUrl: 'https://github.com/hugorth/raytracer',
+    },
+    {
+      id: 'SubPLan',
+      title: 'SubPLan',
+      desc: 'A mobile-first web application to visualize travel times and public transport itineraries in the Paris region.',
+      tags: ['React', 'Node.js', 'PostgreSQL'],
+      icon: 'MapPin',
+      githubUrl: 'https://github.com/hugorth/SubPlan',
+    },
+  ],
+  skills: {
+    cloud: ['AWS', 'Docker', 'Cybersecurity', 'CI/CD'],
+    backend: ['Node.js', 'Python', 'C/C++', 'REST API', 'Java Spring'],
+    frontend: ['React', 'Vue.js', 'TypeScript', 'HTML/CSS'],
+    db: ['PostgreSQL', 'MongoDB', 'MySQL'],
+  },
+  experience: [
+    {
+      role: 'Security-Focused Developer',
+      company: 'DSAF - French Prime Minister Services',
+      date: 'Sept 2024 - Jul 2025',
+      desc: 'Built secure internal applications and contributed to protected file-transfer workflows, access-control patterns and auditability requirements.',
+    },
+    {
+      role: 'Full-Stack Developer',
+      company: 'FWA',
+      date: 'Sept 2023 - Dec 2023',
+      desc: 'Maintained company websites, fixed bugs, delivered React and Node.js features and improved reliability across existing products.',
+    },
+  ],
+  education: [
+    {
+      degree: 'Master in Software Engineering',
+      school: 'Epitech Paris / Barcelona',
+      date: '2022 - 2027',
+    },
+  ],
+};
